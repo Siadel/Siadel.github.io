@@ -20,7 +20,7 @@ const config = {
 			strict: true
 		}),
 		paths: {
-			base: process.env.NODE_ENV === ""
+			base: ""
 		}
 	},
 	preprocess: [vitePreprocess(), mdsvex({ extensions: ['.svx', '.md'] })],
