@@ -20,7 +20,7 @@ const config = {
 			strict: true
 		}),
 		paths: {
-			base: process.env.NODE_ENV === 'production' ? '/Siadel.github.io' : ''
+			base: process.env.NODE_ENV === 'production' ? '/siadel.github.io' : ''
 		}
 	},
 	preprocess: [vitePreprocess(), mdsvex({ extensions: ['.svx', '.md'] })],
